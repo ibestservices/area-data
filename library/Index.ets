@@ -1,0 +1,1 @@
+export { provinceData, provinceAndCityData, regionData, codeToText } from "./src/main/ets/model/AreaData"
