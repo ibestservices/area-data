@@ -3,7 +3,9 @@
 	"version": "0.0.1",
 	"description": "Please describe the basic information.",
 	"main": "Index.ets",
-	"author": "",
+	"author": "ibestservices",
 	"license": "Apache-2.0",
-	"dependencies": {}
+	"dependencies": {},
+	"repository": "https://github.com/ibestservices/area-data",
+	"homepage": "https://ibestui.ibestservices.com/area-data"
 }
