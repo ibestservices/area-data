@@ -1,9 +1,20 @@
 {
 	"name": "@ibestservices/area-data",
 	"version": "0.0.1",
-	"description": "Please describe the basic information.",
+	"description": "中国省市区数据，适用于 arkui的 TextPicker 和 IBest-ui 的 IBestCascader 等组件。",
 	"main": "Index.ets",
-	"author": "",
+	"keywords": [
+		"鸿蒙省市区数据",
+		"省市区",
+		"城市数据",
+		"HarmonyOS"
+	],
+	"author": "ibestservices",
 	"license": "Apache-2.0",
-	"dependencies": {}
+	"ibestservices": {
+		"org": "opensource"
+	},
+	"dependencies": {},
+	"type": "module",
+	"repository": "https://github.com/ibestservices/area-data"
 }

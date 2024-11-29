@@ -2,7 +2,11 @@
 
 ## 简介
 
-中国省市区数据，适用于 arkui的 TextPicker 和 IBest-ui 的 IBestCascader 等组件。
+中国省市区数据，适用于鸿蒙 arkui的 TextPicker 和 IBest-ui 的 IBestCascader 等组件。
+
+## 推荐⭐️⭐️⭐️
+<a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui">IBest-UI</a> 是一个轻量、简单易用、可定制的鸿蒙开源UI组件库,
+其中包含常用的Button、Field、Radio、CheckBox、Form、Slider、Rate、Dialog、Toast、ActionSheet、Loading等组件,可点<a href="https://ibestui.ibestservices.com/">这里</a>查看文档。
 
 ## 下载安装
 
@@ -72,6 +76,6 @@ https://github.com/ibestservices/area-data.git
 ## 贡献者
 感谢以下同学对IBestAreaData做的贡献:
 
-<a href="https://github.com/ibestservices/ibest-ui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ibestservices/ibest-ui" />
+<a href="https://github.com/damengbuxing">
+  <img src="https://avatars.githubusercontent.com/u/42673795?s=64&v=4" />
 </a>
