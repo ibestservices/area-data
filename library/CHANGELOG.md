@@ -1,5 +1,8 @@
 # 版本记录
 
+## 0.0.4
+1. 调整最低编译版本为api10.
+
 ## 0.0.3
 1. 调整build-profile.json5内容, 移除 useNormalizedOHMUrl 配置.
 
