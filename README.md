@@ -1,21 +1,30 @@
-# IBest China Area Data
+<p align="center">
+    <img src="https://ibestservices.github.io/ibest-ui/AppScope/resources/base/media/app_logo_trans.png" width="100">
+</p>
+
+<p align="center">IBest China Area Data</p>
+
+<p align="center">中国省市区数据</p>
+
+<p align="center">
+    <a style="color:#0366d6;" href="https://github.com/ibestservices/area-data">Github</a>
+</p>
+
+---
 
 ## 简介
 
-中国省市区数据，适用于鸿蒙 arkui的 TextPicker 和 IBest-ui 的 IBestCascader 等组件。
+中国省市区数据，适用于鸿蒙ArkUI的 TextPicker 和 IBest-UI的 IBestCascader 等组件。
 
 ## 推荐⭐️⭐️⭐️
-<a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui">IBest-UI</a> 是一个轻量、简单易用、可定制的鸿蒙开源UI组件库,
-其中包含常用的Button、Field、Radio、CheckBox、Form、Slider、Rate、Dialog、Toast、ActionSheet、Loading等组件,可点<a href="https://ibestui.ibestservices.com/">这里</a>查看文档。
+IBest-UI由 <a style="color:#0366d6;" href="https://www.ibestservices.com/" target="_blank">安徽百得思维信息科技有限公司</a>
+开源，是一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库, 包含 Button、Calendar、Form、Field、Picker、Popup、Toast、Dialog、ImageCropper 等50+个优质组件，上手简单，使用方便，可大大提高鸿蒙开发者的开发效率。
 
 ## 下载安装
 
 `ohpm install @ibestservices/area-data`
 
 OpenHarmony ohpm 环境配置等更多内容，请参考[如何安装 OpenHarmony ohpm 包](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_har_usage.md)
-
-## 需要权限
-无
 
 ## 使用
 在 ArkUI 的 TextPicker 组件中使用时，直接引用 `provinceData` 对象即可：
@@ -60,15 +69,22 @@ struct Index {
 
 中国的行政区划每年都会有变动，如果发现省市区数据未及时更新，欢迎提 Pull Request 帮助我们更新。
 
+## 官方生态
 
-## 仓库地址
-https://github.com/ibestservices/area-data.git
+| 项目                     | 描述                                                    |                                                                                                   |
+|:-----------------------|:------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| @ibestservices/ibest_ui | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库。 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui" target="_blank">地址</a> |
+| @ibestservices/ibest_ui_v2 | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库，基于状态管理v2版本。 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui-v2" target="_blank">地址</a> |
+| @ibestservices/ucharts | 一个类型丰富、高性能、可扩展、支持主题定制的图表库。  | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts" target="_blank">地址</a> |
 
-## QQ群
-953492584
+## 交流QQ群
+官方QQ群 953492584
+
+![QQ1群](https://ibestservices.github.io/ibest-ui/screenshot/QQ%E7%BE%A4.jpg)
 
 ## 微信群
-先进QQ群，拉你进微信群
+添加IBest-UI助手, 备注 "鸿蒙开发"
+![微信群](https://ibestservices.github.io/ibest-ui/screenshot/IBest-UI助手.jpg)
 
 ## 开源协议
 本项目基于 Apache License 2.0，请自由地享受和参与开源。
