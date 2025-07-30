@@ -1,4 +1,4 @@
-import { provinceData, provinceAndCityData, regionData, codeToText } from "@ibestservices/area-data"
+import { provinceData, provinceAndCityData, regionData, codeToText, getGenJSON } from "@ibestservices/area-data"
 import { IBestButton, IBestCascader } from '@ibestservices/ibest-ui'
 @Entry
 @Component
@@ -8,6 +8,11 @@ struct Index {
 	@State select2: number = 0
 	@State value: string[] = []
 	@State visible: boolean = false
+
+	onPageShow(): void {
+		console.log("####getGenJSON:", JSON.stringify(getGenJSON('440300')))
+	}
+
 	build() {
 		Scroll(){
 			Column({ space: 20 }) {
