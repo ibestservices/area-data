@@ -3,7 +3,7 @@ interface AreaList{
 	city_list: Record<string, string>
 	county_list: Record<string, string>
 }
-interface CascaderOption {
+export interface CascaderOption {
 	text: string
 	value: string
 	children?: CascaderOption[]
@@ -3897,6 +3897,10 @@ export const areaList: AreaList = {
 		820204: '圣方济各堂区',
 	}
 }
+
+export const province_area_code = Object.keys(areaList.province_list);
+export const city_area_code = Object.keys(areaList.city_list);
+export const county_area_code = Object.keys(areaList.county_list);
 
 const makeOption = (text: string, value: string, children?: CascaderOption[]): CascaderOption => ({
 	text,
