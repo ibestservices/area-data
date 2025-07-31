@@ -3898,9 +3898,9 @@ export const areaList: AreaList = {
 	}
 }
 
-export const province_area_code = Object.keys(areaList.province_list);
-export const city_area_code = Object.keys(areaList.city_list);
-export const county_area_code = Object.keys(areaList.county_list);
+export const provinceAreaCode = Object.keys(areaList.province_list)
+export const cityAreaCode = Object.keys(areaList.city_list)
+export const countyAreaCode = Object.keys(areaList.county_list)
 
 const makeOption = (text: string, value: string, children?: CascaderOption[]): CascaderOption => ({
 	text,

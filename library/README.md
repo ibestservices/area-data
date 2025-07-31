@@ -20,6 +20,9 @@
 IBest-UI由 <a style="color:#0366d6;" href="https://www.ibestservices.com/" target="_blank">安徽百得思维信息科技有限公司</a>
 开源，是一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库, 包含 Button、Calendar、Form、Field、Picker、Popup、Toast、Dialog、ImageCropper 等50+个优质组件，上手简单，使用方便，可大大提高鸿蒙开发者的开发效率。
 
+<a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts')">UCharts</a>
+一个类型丰富、高性能、可扩展、支持主题定制的鸿蒙开源图表库。
+
 ## 下载安装
 
 `ohpm install @ibestservices/area-data`
@@ -71,11 +74,11 @@ struct Index {
 
 ## 官方生态
 
-| 项目                     | 描述                                                    |                                                                                                   |
-|:-----------------------|:------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| @ibestservices/ibest_ui | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库。 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui" target="_blank">地址</a> |
-| @ibestservices/ibest_ui_v2 | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库，基于状态管理v2版本。 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui-v2" target="_blank">地址</a> |
-| @ibestservices/ucharts | 一个类型丰富、高性能、可扩展、支持主题定制的图表库。  | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts" target="_blank">地址</a> |
+| 项目                         | 描述                                                    |                                                                                                                             |
+|:---------------------------|:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| @ibestservices/ibest_ui    | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库。            | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui')">地址</a>    |
+| @ibestservices/ibest_ui_v2 | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库，基于状态管理v2版本。 | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui-v2')">地址</a> |
+| @ibestservices/ucharts     | 一个类型丰富、高性能、可扩展、支持主题定制的图表库。                            | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts')">地址</a>     |
 
 ## 交流QQ群
 官方QQ群 953492584

@@ -1,16 +1,18 @@
 import { provinceData, provinceAndCityData, regionData, codeToText, getGenJSON } from "@ibestservices/area-data"
-import { IBestButton, IBestCascader } from '@ibestservices/ibest-ui'
+import { IBestButton, IBestCascader } from '@ibestservices/ibest-ui-v2'
+
 @Entry
-@Component
+@ComponentV2
 struct Index {
-	@State select: number = 0
-	@State select1: number = 0
-	@State select2: number = 0
-	@State value: string[] = []
-	@State visible: boolean = false
+	@Local select: number = 0
+	@Local select1: number = 0
+	@Local select2: number = 0
+	@Local value: string[] = []
+	@Local visible: boolean = false
+	private context = this.getUIContext().getHostContext() as Context
 
 	onPageShow(): void {
-		console.log("####getGenJSON:", JSON.stringify(getGenJSON('440300')))
+		console.log("####getGenJSON:", JSON.stringify(getGenJSON(this.context, '440300')))
 	}
 
 	build() {
@@ -31,14 +33,14 @@ struct Index {
 				Text(this.value.map(e => codeToText[e]).join(","))
 				IBestButton({
 					text: "选择城市",
-					onClickBtn: () => {
+					onBtnClick: () => {
 						this.visible = true
 					}
 				})
 				IBestCascader({
-					visible: $visible,
+					visible: this.visible!!,
 					options: regionData,
-					value: $value
+					value: this.value!!
 				})
 			}.width('100%')
 		}
