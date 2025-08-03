@@ -1,6 +1,6 @@
 {
 	"name": "@ibestservices/area-data",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "中国省市区数据，适用于 ArkUI的 TextPicker 和 IBest-UI 的 IBestCascader 等组件。",
 	"main": "Index.ets",
 	"keywords": [

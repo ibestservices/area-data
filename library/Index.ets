@@ -2,4 +2,4 @@ export { provinceData, provinceAndCityData, regionData, codeToText, CascaderOpti
 
 export * from './src/main/ets/model/GeoJson.type'
 export { geoJsonEncode, geoJsonDecode } from './src/main/ets/model/GeoJsonTools'
-export { getGenJSON } from './src/main/ets/model/GeoJson'
+export { getGeoJSON } from './src/main/ets/model/GeoJson'

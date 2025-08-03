@@ -1,4 +1,4 @@
-import { provinceData, provinceAndCityData, regionData, codeToText, getGenJSON } from "@ibestservices/area-data"
+import { provinceData, provinceAndCityData, regionData, codeToText, getGeoJSON } from "@ibestservices/area-data"
 import { IBestButton, IBestCascader } from '@ibestservices/ibest-ui-v2'
 
 @Entry
@@ -12,7 +12,7 @@ struct Index {
 	private context = this.getUIContext().getHostContext() as Context
 
 	onPageShow(): void {
-		console.log("####getGenJSON:", JSON.stringify(getGenJSON(this.context, '440300')))
+		console.log("####getGeoJSON:", JSON.stringify(getGeoJSON(this.context, '440300')))
 	}
 
 	build() {

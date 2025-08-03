@@ -1,8 +1,8 @@
 # 版本记录
 
-## 0.0.5
+## 0.0.6 - 5.0.0(12)
 1. 新增 GeoJson 格式的全国区域数据;
-2. 新增导出 getGenJSON、geoJsonEncode、geoJsonDecode 方法;
+2. 新增导出 getGeoJSON、geoJsonEncode、geoJsonDecode 方法;
 3. 新增导出 CascaderOption 类型;
 4. 新增导出 provinceAreaCode、cityAreaCode、countyAreaCode 数据;
 5. 调整最低编译版本为api12.
