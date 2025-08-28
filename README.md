@@ -74,11 +74,13 @@ struct Index {
 
 ## 官方生态
 
-| 项目                         | 描述                                                    |                                                                                                                             |
-|:---------------------------|:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| @ibestservices/ibest-ui    | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库。            | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui')">地址</a>    |
-| @ibestservices/ibest-ui-v2 | 一个**轻量、简单易用、可定制主题、支持深色模式和浅色模式**的鸿蒙开源UI组件库，基于状态管理v2版本。 | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui-v2')">地址</a> |
-| @ibestservices/ucharts     | 一个类型丰富、高性能、可扩展、支持主题定制的图表库。                            | <a style="color:#0366d6;" onclick="openPage('https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts')">地址</a>     |
+| 项目                           | 描述                                                                                         |                                                                                                         |
+|:-----------------------------|:-------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
+| @ibestservices/ibest-ui      | 一个轻量、简单易用、可定制主题、支持深色模式和浅色模式的鸿蒙开源UI组件库，基于状态管理v1版本。                                          | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui" target="_blank">地址</a>      |
+| @ibestservices/ibest-ui-v2   | 一个轻量、简单易用、可定制主题、支持深色模式和浅色模式的鸿蒙开源UI组件库，基于状态管理v2版本。                                          | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-ui-v2" target="_blank">地址</a>   |
+| @ibestservices/ucharts       | 一个类型丰富、高性能、可扩展、支持主题定制的图表库。                                                                 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fucharts" target="_blank">地址</a>       |
+| @ibestservices/ibest-orm     | 一个轻量、简单易用、全功能、支持实体关联、事务、自动迁移的鸿蒙开源 ORM 工具库。                                                 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-orm" target="_blank">地址</a>     |
+| @ibestservices/ibest-barcode | 一个轻量、简单易用的鸿蒙开源条形码组件, 支持CODE39、CODE93、CODE128、、EAN13、UPC、ITF、MSI、Pharmacode、Codabar等多种条码类型。 | <a href="https://ohpm.openharmony.cn/#/cn/detail/@ibestservices%2Fibest-barcode" target="_blank">地址</a> |
 
 ## 交流QQ群
 官方QQ群 953492584
